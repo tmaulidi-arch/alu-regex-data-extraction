@@ -1,7 +1,7 @@
 import re
 import json
 
-with open("input/raw-text.txt", "r") as file:
+with open("../input/raw-text.txt", "r") as file:
     text = file.read()
     # Extract all email addresses from the text
 email_pattern = r'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}'
@@ -52,7 +52,7 @@ results = {
     "security_flags": flagged
 }
 # Save the results to the output JSON file
-with open("output/sample-output.json", "w") as output_file:
+with open("../output/sample-output.json", "w") as output_file:
     json.dump(results, output_file, indent=4)
 
 print("Extraction complete. Results saved to output/sample-output.json")
