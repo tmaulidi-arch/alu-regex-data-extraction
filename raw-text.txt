@@ -1,0 +1,56 @@
+=== Customer Support System Log - ALU Tech Department ===
+Date: 2024-05-15 | Ticket System v3.2
+
+--- Ticket#1042 ---
+From: john.doe@gmail.com
+Subject: Cannot access student portal
+
+Hi support team,
+I've been trying to log in since 09:30 AM but keep getting errors.
+My student ID is linked to j.doe@alueducation.com
+Please contact me at +250 788 123 456 or visit https://portal.alueducation.com/login
+Payment reference for my last invoice: 4111 1111 1111 1111
+Amount paid: $350.00
+
+--- Ticket#1043 ---
+From: alumni.sarah@alumni.alueducation.com
+Subject: Transcript request
+
+Hello,
+I graduated in 2022 and need my transcript.
+You can reach me at +1 (555) 867-5309 or at sarah.k@yahoo.com
+I also paid the transcript fee of $25.50 via card: 5500 0000 0000 0004
+See the form here: https://alumni.alueducation.com/transcripts?id=9921&format=pdf
+
+--- Ticket#1044 ---
+From: prof.mike@si.alueducation.com
+Subject: Lab booking system bug
+
+The booking page at http://labs.si.alueducation.com/book crashes at 11:45 PM
+I tried submitting at 2:30 PM and 14:30 as well, both failed.
+My personal contact: mike.research@outlook.com | Phone: +44 20 7946 0823
+Invoice total: £120.00 | USD equivalent: $150.75
+Card used for equipment: 4012 8888 8888 1881
+
+--- Ticket#1045 ---
+From: <script>alert('xss')</script>@hacker.com
+Subject: '; DROP TABLE tickets; --
+
+Hello I am a normal user hehe
+My card: 9999 9999 9999 9999
+Email: not-an-email@@broken..com
+Phone: 000-000-0000
+URL: javascript:void(document.cookie)
+
+--- Ticket#1046 ---
+From: new.student@alueducation.com
+Subject: Hashtag campaign for orientation week
+
+Hey team,
+We are launching our campaign on social media!
+Follow us: #ALUOrientation2024 #NewStudents #KigaliCampus
+Check our page: https://www.instagram.com/alu_education
+Contact for sponsorship: sponsor@partner.org | +250 722 456 789
+Budget approved: $5,000.00
+
+=== END OF LOG ===
