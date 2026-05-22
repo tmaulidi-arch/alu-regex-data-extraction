@@ -13,8 +13,8 @@ alu_si = [e for e in emails if e.endswith('@si.alueducation.com')]
 # Extract URLs from the text
 url_pattern = r'https?://[a-zA-Z0-9./?=&_%-]+'
 urls = re.findall(url_pattern, text)
-# Extract phone numbers from the text
-phone_pattern = r'\+?[\d\s\-().]{7,20}'
+# Extract phone numbers from the text   
+phone_pattern = r'\+?[\d]{1,3}?[\s\-.]?\(?\d{3}\)?[\s\-.]?\d{3}[\s\-.]?\d{3,4}'
 phones = re.findall(phone_pattern, text)
 # Extract credit card numbers from the text
 card_pattern = r'\b\d{4}[\s-]\d{4}[\s-]\d{4}[\s-]\d{4}\b'

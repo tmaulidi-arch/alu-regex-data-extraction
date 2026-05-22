@@ -1,0 +1,47 @@
+{
+    "emails": {
+        "all": [
+            "john.doe@gmail.com",
+            "j.doe@alueducation.com",
+            "alumni.sarah@alumni.alueducation.com",
+            "sarah.k@yahoo.com",
+            "prof.mike@si.alueducation.com",
+            "mike.research@outlook.com",
+            "new.student@alueducation.com",
+            "sponsor@partner.org"
+        ],
+        "alu_official": [
+            "j.doe@alueducation.com",
+            "new.student@alueducation.com"
+        ],
+        "alu_alumni": [
+            "alumni.sarah@alumni.alueducation.com"
+        ],
+        "alu_si": [
+            "prof.mike@si.alueducation.com"
+        ]
+    },
+    "urls": [
+        "https://portal.alueducation.com/login",
+        "https://alumni.alueducation.com/transcripts?id=9921&format=pdf",
+        "http://labs.si.alueducation.com/book",
+        "https://www.instagram.com/alu_education"
+    ],
+    "phone_numbers": [
+        "+250 788 123 456",
+        "+1 (555) 867-5309",
+        "+250 722 456 789"
+    ],
+    "credit_cards": [
+        "**** **** **** 1111",
+        "**** **** **** 0004",
+        "**** **** **** 1881",
+        "**** **** **** 9999"
+    ],
+    "security_flags": [
+        "<script.*?>",
+        "DROP\\s+TABLE",
+        "javascript:",
+        "--"
+    ]
+}
