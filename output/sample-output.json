@@ -1,47 +1,168 @@
 {
-    "emails": {
-        "all": [
-            "john.doe@gmail.com",
-            "j.doe@alueducation.com",
-            "alumni.sarah@alumni.alueducation.com",
-            "sarah.k@yahoo.com",
-            "prof.mike@si.alueducation.com",
-            "mike.research@outlook.com",
-            "new.student@alueducation.com",
-            "sponsor@partner.org"
-        ],
-        "alu_official": [
-            "j.doe@alueducation.com",
-            "new.student@alueducation.com"
-        ],
-        "alu_alumni": [
-            "alumni.sarah@alumni.alueducation.com"
-        ],
-        "alu_si": [
-            "prof.mike@si.alueducation.com"
-        ]
-    },
-    "urls": [
-        "https://portal.alueducation.com/login",
-        "https://alumni.alueducation.com/transcripts?id=9921&format=pdf",
-        "http://labs.si.alueducation.com/book",
-        "https://www.instagram.com/alu_education"
+  "emails": {
+    "alu_official": [
+      "ad***@alueducation.com",
+      "ka***@alueducation.com",
+      "al***@alueducation.com"
     ],
-    "phone_numbers": [
-        "+250 788 123 456",
-        "+1 (555) 867-5309",
-        "+250 722 456 789"
+    "alu_alumni": [
+      "be***@alumni.alueducation.com"
     ],
-    "credit_cards": [
-        "**** **** **** 1111",
-        "**** **** **** 0004",
-        "**** **** **** 1881",
-        "**** **** **** 9999"
+    "alu_si": [
+      "te***@si.alueducation.com",
+      "c.***@si.alueducation.com"
     ],
-    "security_flags": [
-        "<script.*?>",
-        "DROP\\s+TABLE",
-        "javascript:",
-        "--"
+    "external": [
+      "da***@gmail.com",
+      "er***@yahoo.co.uk"
+    ],
+    "rejected": []
+  },
+  "urls": {
+    "valid": [
+      "https://www.alueducation.com/admissions",
+      "http://library.alueducation.com/resources?topic=regex&year=2024",
+      "https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgVE2upms",
+      "ftp://backup.alueducation.com/exports/march2024.zip",
+      "https://alueducation.com"
+    ],
+    "rejected": [
+      {
+        "value": "http://192.168.0.1/admin?bypass=true",
+        "reason": "private IP address"
+      },
+      {
+        "value": "[REDACTED]",
+        "reason": "dangerous content"
+      }
     ]
+  },
+  "phone_numbers": {
+    "valid": [
+      "+250-788-123-456",
+      "+234 (0)80 1234 5678",
+      "+1-800-555-0199",
+      "+44 20 7946 0958",
+      "0712 345 678"
+    ]
+  },
+  "credit_cards": {
+    "valid": [
+      {
+        "masked": "**** **** **** 9903",
+        "length": 16,
+        "network": "Visa / Mastercard / Discover"
+      },
+      {
+        "masked": "**** **** ***0 005",
+        "length": 15,
+        "network": "Amex"
+      }
+    ],
+    "invalid_luhn": [
+      {
+        "masked": "**** **** **** 9010",
+        "reason": "failed Luhn check"
+      },
+      {
+        "masked": "**** **** **** 0000",
+        "reason": "failed Luhn check"
+      },
+      {
+        "masked": "**** **** **** 3456",
+        "reason": "failed Luhn check"
+      }
+    ],
+    "rejected": [
+      {
+        "value": "**** **** **** 9999",
+        "reason": "all identical digits"
+      },
+      {
+        "value": "**** **** **** 0000",
+        "reason": "all identical digits"
+      }
+    ]
+  },
+  "times": {
+    "12_hour": [
+      "09:00 AM",
+      "11:30 AM",
+      "1:00 PM",
+      "2:45 PM",
+      "6:00 PM",
+      "10:30 PM"
+    ],
+    "24_hour": [
+      "22:30",
+      "23:59",
+      "00:15",
+      "06:00"
+    ]
+  },
+  "html_tags": {
+    "found": [
+      "<html>",
+      "<head>",
+      "<title>",
+      "</title>",
+      "</head>",
+      "<body>",
+      "<h1>",
+      "</h1>",
+      "<p class=\"intro\">",
+      "</p>",
+      "<div id=\"dashboard\">",
+      "<img src=\"banner.png\" alt=\"ALU Banner\" />",
+      "<a href=\"https://alueducation.com\">",
+      "</a>",
+      "</div>",
+      "</body>",
+      "</html>"
+    ]
+  },
+  "hashtags": {
+    "valid": [
+      "#ALU2024",
+      "#AfricanLeadership",
+      "#TechForAfrica",
+      "#Rwanda2024",
+      "#IgniteChange",
+      "#StudentLife",
+      "#ALUAdmissions",
+      "#BuildingAfrica",
+      "#FutureLeaders",
+      "#STEM"
+    ],
+    "rejected": []
+  },
+  "currency": {
+    "found": [
+      {
+        "display": "$12,500.00",
+        "symbol": "$",
+        "negative": false
+      },
+      {
+        "display": "$3,750.50",
+        "symbol": "$",
+        "negative": false
+      },
+      {
+        "display": "$500",
+        "symbol": "$",
+        "negative": false
+      },
+      {
+        "display": "-$250.00",
+        "symbol": "$",
+        "negative": true
+      },
+      {
+        "display": "$1,000,000",
+        "symbol": "$",
+        "negative": false
+      }
+    ]
+  }
 }
